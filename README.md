@@ -13,7 +13,7 @@ A public web page with six sections:
 
 | Section | What goes there |
 |---|---|
-| Home | Marlon acosta, Estudiante, your links |
+| Home | Marlon acosta, Estudiante |
 | About | Soy estudiante de la Uniespinal,estudiante del programa ingeneria de sistmeas,soy programador junior novato|
 | Skills | Your technical and professional skills |
 | Resume | Your education and your experience |
