@@ -1,17 +1,7 @@
 /* ============================================================
    WEB PROFILE TEMPLATE - SCRIPT
    UniEspinal · Técnico Profesional en Programación Web
-
-   THIS IS THE FILE YOU WILL WORK ON THE MOST.
-
-   Below there are two dictionaries: ES and EN.
-   They have exactly the same keys, but different texts.
-
-   IMPORTANT: the English version is NOT a translation of the
-   Spanish version. A professional profile in English follows
-   different rules. Read NOTES.md before you write it.
    ============================================================ */
-
 
 /* ------------------------------------------------------------
    1. SPANISH TEXTS
@@ -24,31 +14,31 @@ const ES = {
   "nav.portfolio": "PROYECTOS",
   "nav.contact":   "CONTACTO",
 
-  "hero.role": "Desarrollador Web · Soporte Técnico",
+  "hero.role": "Desarrollador de Software · Estudiante de Programación Web",
 
   "about.title":          "Sobre Mí",
-  "about.text":           "[Escribe aquí dos o tres frases sobre ti: qué estudias, qué te interesa dentro del desarrollo web y qué estás buscando ahora.]",
+  "about.text":           "Soy estudiante de cuarto semestre del Técnico en Programación Web en UNIESPINAL. Me apasiona el desarrollo de software integral, desde la creación de aplicaciones de escritorio en Java y bases de datos SQL, hasta el desarrollo móvil y web con tecnologías como PHP y Laravel. Soy una persona curiosa que disfruta aprendiendo sobre arquitectura de hardware, simulación de redes y leyendo sobre innovación tecnológica. Me gusta enfrentar problemas lógicos y construir soluciones eficientes.",
   "about.infoTitle":      "Información",
   "about.labelLocation":  "Ubicación",
-  "about.valueLocation":  "[Ciudad], Colombia",
+  "about.valueLocation":  "El Espinal (Tolima), Colombia",
   "about.labelEmail":     "Correo",
   "about.labelLanguages": "Idiomas",
-  "about.valueLanguages": "Español (nativo) · Inglés ([tu nivel])",
+  "about.valueLanguages": "Español (nativo) · Inglés (B1)",
   "about.labelStatus":    "Disponibilidad",
-  "about.valueStatus":    "Abierto a prácticas",
+  "about.valueStatus":    "Abierto a proyectos y prácticas",
   "about.interestsTitle": "Intereses",
 
-  "interest.1": "CÓDIGO",
-  "interest.2": "SOPORTE",
-  "interest.3": "LECTURA",
-  "interest.4": "JUEGOS",
+  "interest.1": "DESARROLLO",
+  "interest.2": "REDES / SERVIDORES",
+  "interest.3": "INNOVACIÓN",
+  "interest.4": "MODDING / JUEGOS",
 
   "skills.title":        "Habilidades",
   "skills.technical":    "Habilidades técnicas",
   "skills.professional": "Habilidades profesionales",
-  "skill.support":       "Soporte al usuario",
-  "skill.teamwork":      "Trabajo en equipo",
-  "skill.problem":       "Resolución de problemas",
+  "skill.support":       "Soporte técnico y Logística",
+  "skill.teamwork":      "Metodologías Ágiles",
+  "skill.problem":       "Resolución de problemas lógicos",
   "skill.english":       "Inglés técnico",
 
   "resume.title":      "Formación y experiencia",
@@ -56,39 +46,33 @@ const ES = {
   "resume.experience": "Experiencia",
 
   "edu.1.title": "Técnico Profesional en Programación Web",
-  "edu.1.text":  "[Una o dos frases sobre lo que estás aprendiendo y qué sabes hacer ahora.]",
-  "edu.2.title": "[Curso o certificación]",
-  "edu.2.text":  "[Qué aprendiste y para qué te sirve.]",
+  "edu.1.text":  "Formación orientada al desarrollo de software, modelado de bases de datos, teoría general de sistemas y metodologías ágiles.",
+  "edu.2.title": "Desarrollo Lógico e Infraestructura",
+  "edu.2.text":  "Estudio práctico sobre arquitectura de hardware, simulación de redes en Cisco Packet Tracer y administración de servidores virtualizados.",
 
-  "exp.1.title": "[Rol o tipo de proyecto]",
-  "exp.1.text":  "[Qué hiciste, con qué herramientas y qué resultado tuvo.]",
-  "exp.2.title": "[Rol o tipo de proyecto]",
-  "exp.2.text":  "[Qué hiciste, con qué herramientas y qué resultado tuvo.]",
+  "exp.1.title": "Líder de Desarrollo Académico",
+  "exp.1.text":  "Diseño y estructuración del proyecto Sentinel, investigando la integración de modelos de visión artificial (MediaPipe, YOLO) para sistemas de e-proctoring.",
+  "exp.2.title": "Apoyo Logístico Institucional",
+  "exp.2.text":  "Coordinación, soporte técnico y asistencia operativa durante el desarrollo de eventos y jornadas académicas.",
 
   "portfolio.title": "Proyectos",
-  "project.1.title": "[Nombre del proyecto]",
-  "project.1.text":  "[Tecnologías usadas]",
-  "project.2.title": "[Nombre del proyecto]",
-  "project.2.text":  "[Tecnologías usadas]",
-  "project.3.title": "[Nombre del proyecto]",
-  "project.3.text":  "[Tecnologías usadas]",
+  "project.1.title": "Sentinel e-Proctoring",
+  "project.1.text":  "Propuesta de supervisión web automatizada con IA.",
+  "project.2.title": "Gestión de Inventario",
+  "project.2.text":  "App de escritorio Java con SQL y código de barras.",
+  "project.3.title": "QuizMaster",
+  "project.3.text":  "App educativa móvil con integración de Firebase.",
 
   "contact.title":         "Contacto",
-  "contact.intro":         "[Una frase invitando a escribirte. Por ejemplo: ¿Tienes un proyecto o una vacante? Escríbeme.]",
+  "contact.intro":         "Si te interesan mis proyectos o buscas un perfil orientado al desarrollo de software y la resolución de problemas, no dudes en escribirme.",
   "contact.emailLabel":    "Correo",
-  "contact.linkedinValue": "[Tu perfil profesional]",
+  "contact.linkedinValue": "Marlon Acosta Roa",
 
-  "footer.note": "[Tu nombre] · Técnico Profesional en Programación Web · UniEspinal"
+  "footer.note": "Marlon Acosta Roa · Técnico en Programación Web · UNIESPINAL"
 };
-
 
 /* ------------------------------------------------------------
    2. ENGLISH TEXTS
-
-   Before writing this section, remember:
-   - Use action verbs: built, configured, fixed, tested, supported.
-   - Do not include age, marital status or a home address.
-   - Do not translate word by word. Rewrite.
    ------------------------------------------------------------ */
 const EN = {
   "nav.home":      "HOME",
@@ -98,31 +82,31 @@ const EN = {
   "nav.portfolio": "PROJECTS",
   "nav.contact":   "CONTACT",
 
-  "hero.role": "Web Developer · Technical Support",
+  "hero.role": "Software Developer · Web Programming Student",
 
   "about.title":          "About Me",
-  "about.text":           "[Write two or three sentences about yourself: what you study, what interests you in web development, and what you are looking for now.]",
+  "about.text":           "I am a fourth-semester Web Programming student at UNIESPINAL. I am passionate about full-stack software development, from creating Java desktop apps and SQL databases to mobile and web development using technologies like PHP and Laravel. I am a curious person who enjoys learning about hardware architecture, network simulation, and reading about technological innovation. I love tackling logical problems and building efficient solutions.",
   "about.infoTitle":      "Information",
   "about.labelLocation":  "Location",
-  "about.valueLocation":  "[City], Colombia",
+  "about.valueLocation":  "El Espinal (Tolima), Colombia",
   "about.labelEmail":     "Email",
   "about.labelLanguages": "Languages",
-  "about.valueLanguages": "Spanish (native) · English ([your level])",
+  "about.valueLanguages": "Spanish (native) · English (B1)",
   "about.labelStatus":    "Availability",
-  "about.valueStatus":    "Open to internships",
+  "about.valueStatus":    "Open to projects and internships",
   "about.interestsTitle": "Interests",
 
-  "interest.1": "CODE",
-  "interest.2": "SUPPORT",
-  "interest.3": "READING",
-  "interest.4": "GAMING",
+  "interest.1": "DEVELOPMENT",
+  "interest.2": "NETWORKS / SERVERS",
+  "interest.3": "INNOVATION",
+  "interest.4": "MODDING / GAMING",
 
   "skills.title":        "Skills",
   "skills.technical":    "Technical skills",
   "skills.professional": "Professional skills",
-  "skill.support":       "User support",
-  "skill.teamwork":      "Teamwork",
-  "skill.problem":       "Problem solving",
+  "skill.support":       "Technical support & Logistics",
+  "skill.teamwork":      "Agile Methodologies",
+  "skill.problem":       "Logical problem solving",
   "skill.english":       "Technical English",
 
   "resume.title":      "Education and experience",
@@ -130,35 +114,33 @@ const EN = {
   "resume.experience": "Experience",
 
   "edu.1.title": "Professional Technician in Web Programming",
-  "edu.1.text":  "[One or two sentences about what you are learning and what you can do now.]",
-  "edu.2.title": "[Course or certificate]",
-  "edu.2.text":  "[What you learned and how you use it.]",
+  "edu.1.text":  "Training focused on software development, database modeling, general systems theory, and agile methodologies.",
+  "edu.2.title": "Logic Development and Infrastructure",
+  "edu.2.text":  "Practical study on hardware architecture, network simulation in Cisco Packet Tracer, and virtualized server administration.",
 
-  "exp.1.title": "[Role or type of project]",
-  "exp.1.text":  "[What you did, which tools you used, and what the result was.]",
-  "exp.2.title": "[Role or type of project]",
-  "exp.2.text":  "[What you did, which tools you used, and what the result was.]",
+  "exp.1.title": "Academic Development Lead",
+  "exp.1.text":  "Designed and structured the Sentinel project, researching the integration of computer vision models (MediaPipe, YOLO) for e-proctoring systems.",
+  "exp.2.title": "Institutional Logistics Support",
+  "exp.2.text":  "Coordinated and provided technical support and operational assistance during academic events and conferences.",
 
   "portfolio.title": "Projects",
-  "project.1.title": "[Project name]",
-  "project.1.text":  "[Technologies used]",
-  "project.2.title": "[Project name]",
-  "project.2.text":  "[Technologies used]",
-  "project.3.title": "[Project name]",
-  "project.3.text":  "[Technologies used]",
+  "project.1.title": "Sentinel e-Proctoring",
+  "project.1.text":  "Automated web supervision proposal with AI.",
+  "project.2.title": "Inventory Management",
+  "project.2.text":  "Java desktop app with SQL and barcode scanner.",
+  "project.3.title": "QuizMaster",
+  "project.3.text":  "Mobile educational app integrated with Firebase.",
 
   "contact.title":         "Contact",
-  "contact.intro":         "[One sentence inviting people to write to you. Example: Have a project or a vacancy? Send me a message.]",
+  "contact.intro":         "If you are interested in my projects or are looking for a profile focused on software development and problem-solving, feel free to contact me.",
   "contact.emailLabel":    "Email",
-  "contact.linkedinValue": "[Your professional profile]",
+  "contact.linkedinValue": "Marlon Acosta Roa",
 
-  "footer.note": "[Your name] · Professional Technician in Web Programming · UniEspinal"
+  "footer.note": "Marlon Acosta Roa · Web Programming Technician · UNIESPINAL"
 };
-
 
 /* ============================================================
    3. LANGUAGE SWITCHER
-   You do not need to change the code below.
    ============================================================ */
 
 const DICCIONARIOS = { es: ES, en: EN };
@@ -197,7 +179,6 @@ function cambiarIdioma() {
   aplicarIdioma(idiomaActual === "es" ? "en" : "es");
 }
 
-
 /* ============================================================
    4. RESPONSIVE MENU
    ============================================================ */
@@ -215,13 +196,8 @@ function cerrarMenu() {
   menuVisible = false;
 }
 
-
 /* ============================================================
    5. SKILL BARS
-
-   The width comes from the data-percent attribute in index.html.
-   You can add or remove skills freely: this code does not depend
-   on how many there are.
    ============================================================ */
 
 function animarHabilidades() {
@@ -250,7 +226,6 @@ function animarHabilidades() {
 
   barras.forEach(barra => observador.observe(barra));
 }
-
 
 /* ============================================================
    6. START
