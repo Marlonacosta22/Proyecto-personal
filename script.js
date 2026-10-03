@@ -50,10 +50,10 @@ const ES = {
   "edu.2.title": "Desarrollo Lógico e Infraestructura",
   "edu.2.text":  "Estudio práctico sobre arquitectura de hardware, simulación de redes en Cisco Packet Tracer y administración de servidores virtualizados.",
 
-  "exp.1.title": "Líder de Desarrollo Académico",
-  "exp.1.text":  "Diseño y estructuración del proyecto Sentinel, investigando la integración de modelos de visión artificial (MediaPipe, YOLO) para sistemas de e-proctoring.",
-  "exp.2.title": "Apoyo Logístico Institucional",
-  "exp.2.text":  "Coordinación, soporte técnico y asistencia operativa durante el desarrollo de eventos y jornadas académicas.",
+  "exp.1.title": "Prácticas de Desarrollo Frontend",
+  "exp.1.text":  "Construcción y maquetación de interfaces de usuario interactivas y responsivas aplicando HTML, CSS, JavaScript y frameworks como Bootstrap 5.",
+  "exp.2.title": "Lógica de Servidor y Bases de Datos",
+  "exp.2.text":  "Ejercicios prácticos de estructuración de bases de datos relacionales (MySQL) y desarrollo de backend utilizando PHP en entornos locales.",
 
   "portfolio.title": "Proyectos",
   "project.1.title": "Sentinel e-Proctoring",
@@ -118,10 +118,10 @@ const EN = {
   "edu.2.title": "Logic Development and Infrastructure",
   "edu.2.text":  "Practical study on hardware architecture, network simulation in Cisco Packet Tracer, and virtualized server administration.",
 
-  "exp.1.title": "Academic Development Lead",
-  "exp.1.text":  "Designed and structured the Sentinel project, researching the integration of computer vision models (MediaPipe, YOLO) for e-proctoring systems.",
-  "exp.2.title": "Institutional Logistics Support",
-  "exp.2.text":  "Coordinated and provided technical support and operational assistance during academic events and conferences.",
+  "exp.1.title": "Frontend Development Practices",
+  "exp.1.text":  "Built and structured interactive, responsive user interfaces applying HTML, CSS, JavaScript, and frameworks like Bootstrap 5.",
+  "exp.2.title": "Server Logic & Databases",
+  "exp.2.text":  "Completed practical exercises in relational database modeling (MySQL) and backend development using PHP in local environments.",
 
   "portfolio.title": "Projects",
   "project.1.title": "Sentinel e-Proctoring",
