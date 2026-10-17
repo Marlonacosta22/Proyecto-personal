@@ -1,1 +1,1 @@
-Put your images here. See README.md in the root folder for the required file names.
+portfolio-preview.jpg is a real browser screenshot of the published English home page. It documents the portfolio project. The profile uses initials, so no personal photo is required.
