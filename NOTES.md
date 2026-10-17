@@ -1,82 +1,38 @@
-# Translation Notes
+# Translation Notes — Draft
 
-**Student:** [Your name]
-**Course:** [Inglés I / Inglés II]
-**Date:** [dd/mm/yyyy]
+Student: Marlon Acosta Roa
 
----
+Project: Bilingual Personal Portfolio
 
-## Why this file exists
+Date: 16 October 2026
 
-Your Spanish profile and your English profile are **not** the same text in two
-languages. They are two different documents for two different readers.
-
-Some examples of what changes:
-
-- A Colombian *hoja de vida* often includes a photo, an ID number, an address
-  and a date of birth. An English CV or profile does not. In many countries
-  this information is removed on purpose, because of anti-discrimination law.
-- Spanish professional writing often uses nouns: *"Manejo de bases de datos
-  relacionales."* English uses action verbs: *"Built and maintained relational
-  databases."*
-- Some technical words are never translated. Nobody writes *"marco de trabajo
-  JavaScript del lado del cliente"*. We write *framework*.
-
-This file is where you show that you understood those differences.
-
----
+Status: AI-assisted draft for the student to review before submission. The answers describe decisions visible in the current profile; they do not claim that the student has completed an oral review.
 
 ## Question 1 · What did you leave out?
 
-Name **one thing** that appears in your Spanish version and does **not** appear
-in your English version. Explain why you removed it.
-
-> [Write 2–4 sentences in English.]
-
----
+The Spanish About section mentions reading about technological innovation as a personal interest. The English About section leaves out that detail and focuses on my programming studies and learning projects. This makes the introduction shorter and more relevant to a reader looking for technical skills.
 
 ## Question 2 · What did you not translate?
 
-Name **one technical term** that you kept in English in both versions.
-Explain why translating it would be a bad idea.
-
-> [Write 2–4 sentences in English.]
-
----
+I kept the technical term "backend" in English in both versions. It refers to the server-side part of an application and is widely used in programming documentation. A literal translation would sound less natural and could make the meaning harder to recognize.
 
 ## Question 3 · What was difficult?
 
-Name **one sentence** that was hard to write in English. Copy the Spanish
-version and your English version. Explain what you changed and why a
-word-by-word translation did not work.
+Spanish: "Me gusta enfrentar problemas lógicos y construir soluciones eficientes."
 
-> Spanish: [copy your sentence here]
->
-> English: [copy your sentence here]
->
-> [Write 2–4 sentences in English explaining the change.]
+English: "I enjoy solving logical problems and building efficient solutions."
 
----
+This sentence required a natural English verb choice. A word-by-word version using "face logical problems" would sound less direct in this profile. "Solving" explains the activity more clearly, and the parallel forms "solving" and "building" make the sentence easier to read.
 
 ## Tools
 
-You may use dictionaries, translators and AI tools. But you must say so here.
+OpenAI Codex, an AI assistant, helped audit the website, draft and revise the English text, prepare these answers, and correct HTML, CSS, and JavaScript. Browser tools were used to inspect the published page and its language switch. Automated checks validated the revised dictionaries and navigation logic. Visual desktop and mobile checks of the revised page are pending publication. The project image is a browser capture of this portfolio, not an AI-generated image. No separate translation service was used in this revision. The student should review the wording and confirm that the profile accurately represents their skills and studies.
 
-**Which tools did you use, and for what?**
+## Review record
 
-> [Write your answer in English. Be specific. For example: "I used
-> Cambridge Dictionary to check the difference between *develop* and
-> *design*." Or: "I used a translator for a first version of the About
-> section, and then I rewrote it because it sounded too formal."]
-
----
-
-## Self-check before you submit
-
-- [ ] Both dictionaries in `script.js` have the same keys.
-- [ ] No `[square brackets]` are left in the page.
-- [ ] My page has no address, no phone number and no ID number.
-- [ ] The language button works in both directions.
-- [ ] All my links open the correct page.
-- [ ] I read my English text out loud and it sounds natural to me.
-- [ ] I can explain my profile in English, without reading it.
+- Both language dictionaries have matching translation keys.
+- The English version translates skills, education dates, study providers, image descriptions, and accessibility labels.
+- The project includes an English name, a technology description, a preview image, and a link to its source repository.
+- The page contains no placeholder brackets, phone number, government ID, home address, or birth date.
+- GitHub links use the account Marlonacosta22.
+- Reading the English profile aloud and explaining it independently remain student review tasks.

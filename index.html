@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Marlon Acosta Roa · Web Developer</title>
-  <meta name="description" content="Desarrollador web y de software, estudiante del Técnico en Programación Web en El Espinal, Tolima.">
+  <meta name="description" data-i18n-content="meta.description" content="Portafolio bilingüe de Marlon Acosta Roa, estudiante de Programación Web en UNIESPINAL.">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +42,7 @@
           <span class="idioma-activo">ES</span><span class="idioma-sep">/</span><span class="idioma-inactivo">EN</span>
         </button>
 
-        <button class="nav-responsive" type="button" onclick="mostrarOcultarMenu()" aria-label="Menu">
+        <button class="nav-responsive" type="button" onclick="mostrarOcultarMenu()" aria-label="Abrir menú" data-i18n-aria-label="menu.open" aria-controls="nav" aria-expanded="false">
           <i class="fa-solid fa-bars"></i>
         </button>
       </div>
@@ -53,15 +53,14 @@
   <section id="inicio" class="inicio">
     <div class="contenido-banner">
       <div class="contenedor-img">
-        <img src="images/profile.jpg" alt="Foto de perfil de Marlon Acosta Roa" onerror="this.style.display='none'">
+        <div class="profile-initials" aria-hidden="true">MA</div>
       </div>
 
       <h1>Marlon Acosta Roa</h1>
       <h2 data-i18n="hero.role">Desarrollador de Software · Estudiante de Programación Web</h2>
 
       <div class="redes">
-        <a href="https://github.com/marlonacosta" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="https://linkedin.com/in/marlonacosta" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/Marlonacosta22" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
         <a href="mailto:macosta80@itfip.edu.co" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
       </div>
     </div>
@@ -138,7 +137,7 @@
             <div class="barra-skill"><div class="progreso" data-percent="75"><span>75%</span></div></div>
           </div>
           <div class="skill">
-            <span class="skill-nombre">Java (Swing & Escritorio)</span>
+            <span class="skill-nombre" data-i18n="skill.java">Java (Swing y escritorio)</span>
             <div class="barra-skill"><div class="progreso" data-percent="80"><span>80%</span></div></div>
           </div>
           <div class="skill">
@@ -146,7 +145,7 @@
             <div class="barra-skill"><div class="progreso" data-percent="70"><span>70%</span></div></div>
           </div>
           <div class="skill">
-            <span class="skill-nombre">Desarrollo Móvil (Bloques)</span>
+            <span class="skill-nombre" data-i18n="skill.mobile">Desarrollo móvil con bloques</span>
             <div class="barra-skill"><div class="progreso" data-percent="78"><span>78%</span></div></div>
           </div>
         </div>
@@ -187,15 +186,15 @@
           <div class="item izq">
             <h4 data-i18n="edu.1.title">Técnico Profesional en Programación Web</h4>
             <span class="casa">UNIESPINAL</span>
-            <span class="fecha">En curso (4to Semestre)</span>
+            <span class="fecha" data-i18n="edu.1.period">En curso (4.º semestre)</span>
             <p data-i18n="edu.1.text">Formación orientada al desarrollo de software, modelado de bases de datos, teoría general de sistemas y metodologías ágiles.</p>
             <div class="conectori"><div class="circuloi"></div></div>
           </div>
 
           <div class="item izq">
             <h4 data-i18n="edu.2.title">Desarrollo Lógico e Infraestructura</h4>
-            <span class="casa">Formación Autodidacta</span>
-            <span class="fecha">Constante</span>
+            <span class="casa" data-i18n="edu.2.provider">Formación autodidacta</span>
+            <span class="fecha" data-i18n="edu.2.period">Aprendizaje continuo</span>
             <p data-i18n="edu.2.text">Estudio práctico sobre arquitectura de hardware, simulación de redes en Cisco Packet Tracer y administración de servidores virtualizados.</p>
             <div class="conectori"><div class="circuloi"></div></div>
           </div>
@@ -205,18 +204,18 @@
           <h3 data-i18n="resume.experience">Experiencia</h3>
 
           <div class="item der">
-            <h4 data-i18n="exp.1.title">Líder de Desarrollo Académico</h4>
+            <h4 data-i18n="exp.1.title">Prácticas de desarrollo frontend</h4>
             <span class="casa">UNIESPINAL</span>
             <span class="fecha">2026</span>
-            <p data-i18n="exp.1.text">Diseño y estructuración del proyecto Sentinel, investigando la integración de modelos de visión artificial (MediaPipe, YOLO) para sistemas de e-proctoring.</p>
+            <p data-i18n="exp.1.text">Construcción de interfaces interactivas y adaptables con HTML, CSS y JavaScript en proyectos de aprendizaje.</p>
             <div class="conectord"><div class="circulod"></div></div>
           </div>
 
           <div class="item der">
-            <h4 data-i18n="exp.2.title">Apoyo Logístico Institucional</h4>
-            <span class="casa">Eventos Universitarios</span>
+            <h4 data-i18n="exp.2.title">Lógica de servidor y bases de datos</h4>
+            <span class="casa" data-i18n="exp.2.provider">Proyectos académicos</span>
             <span class="fecha">2026</span>
-            <p data-i18n="exp.2.text">Coordinación, soporte técnico y asistencia operativa durante el desarrollo de eventos y jornadas académicas.</p>
+            <p data-i18n="exp.2.text">Ejercicios de modelado de bases de datos relacionales con MySQL y desarrollo de backend con PHP en entornos locales.</p>
             <div class="conectord"><div class="circulod"></div></div>
           </div>
         </div>
@@ -230,27 +229,12 @@
       <h2 data-i18n="portfolio.title">Proyectos</h2>
 
       <div class="galeria">
-        <a class="proyecto" href="#" target="_blank" rel="noopener">
-          <img src="images/project-1.png" alt="Proyecto Sentinel" onerror="this.style.opacity=0">
+        <a class="proyecto" href="https://github.com/Marlonacosta22/Proyecto-personal" target="_blank" rel="noopener noreferrer">
+          <img src="images/portfolio-preview.jpg" alt="Vista del portafolio personal bilingüe" data-i18n-alt="project.1.image" width="1265" height="712" loading="lazy">
           <div class="overlay">
-            <h3 data-i18n="project.1.title">Sentinel e-Proctoring</h3>
-            <p data-i18n="project.1.text">Propuesta de supervisión web automatizada con IA.</p>
-          </div>
-        </a>
-
-        <a class="proyecto" href="#" target="_blank" rel="noopener">
-          <img src="images/project-2.png" alt="Sistema de Inventario" onerror="this.style.opacity=0">
-          <div class="overlay">
-            <h3 data-i18n="project.2.title">Gestión de Inventario</h3>
-            <p data-i18n="project.2.text">App de escritorio Java con SQL y código de barras.</p>
-          </div>
-        </a>
-
-        <a class="proyecto" href="#" target="_blank" rel="noopener">
-          <img src="images/project-3.png" alt="Quiz App" onerror="this.style.opacity=0">
-          <div class="overlay">
-            <h3 data-i18n="project.3.title">QuizMaster</h3>
-            <p data-i18n="project.3.text">App educativa móvil con integración de Firebase.</p>
+            <h3 data-i18n="project.1.title">Portafolio personal bilingüe</h3>
+            <p data-i18n="project.1.text">Página adaptable con secciones de perfil, habilidades, formación y proyectos. Tecnologías: HTML5, CSS3 y JavaScript. Publicada con GitHub Pages.</p>
+            <span class="project-link" data-i18n="project.1.link">Ver código en GitHub →</span>
           </div>
         </a>
       </div>
@@ -272,16 +256,10 @@
           <span>macosta80@itfip.edu.co</span>
         </a>
 
-        <a class="tarjeta" href="https://github.com/marlonacosta" target="_blank" rel="noopener">
+        <a class="tarjeta" href="https://github.com/Marlonacosta22" target="_blank" rel="noopener noreferrer">
           <i class="fa-brands fa-github"></i>
           <strong>GitHub</strong>
-          <span>github.com/marlonacosta</span>
-        </a>
-
-        <a class="tarjeta" href="https://linkedin.com/in/marlonacosta" target="_blank" rel="noopener">
-          <i class="fa-brands fa-linkedin-in"></i>
-          <strong>LinkedIn</strong>
-          <span data-i18n="contact.linkedinValue">Marlon Acosta Roa</span>
+          <span>github.com/Marlonacosta22</span>
         </a>
       </div>
     </div>
@@ -289,12 +267,14 @@
 
   <!-- ========================= FOOTER ========================= -->
   <footer>
-    <a href="#inicio" class="arriba" aria-label="Back to top">
+    <a href="#inicio" class="arriba" aria-label="Volver al inicio" data-i18n-aria-label="back.top">
       <i class="fa-solid fa-angles-up"></i>
     </a>
     <p class="footer-nota" data-i18n="footer.note">
       Marlon Acosta Roa · Técnico en Programación Web · UNIESPINAL
     </p>
+    <p class="footer-tools" data-i18n="tools.note">Herramientas: OpenAI Codex (IA) ayudó a revisar las traducciones, el código y este borrador. Detalles en NOTES.md.</p>
+    <a class="notes-link" href="https://github.com/Marlonacosta22/Proyecto-personal/blob/main/NOTES.md" target="_blank" rel="noopener noreferrer" data-i18n="tools.link">Notas de traducción y herramientas</a>
   </footer>
 
   <script src="script.js"></script>

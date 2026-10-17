@@ -58,6 +58,7 @@ a { color: inherit; }
 }
 
 .contenedor-header header {
+  gap: 12px;
   max-width: var(--ancho-max);
   margin: auto;
   display: flex;
@@ -68,7 +69,8 @@ a { color: inherit; }
 
 .contenedor-header header .logo a {
   font-family: var(--fuente-titulo);
-  font-size: 32px;
+  font-size: clamp(18px, 4vw, 32px);
+  white-space: nowrap;
   color: var(--color-acento);
   text-decoration: none;
 }
@@ -91,6 +93,7 @@ a { color: inherit; }
 .contenedor-header header nav ul li a:hover { color: var(--color-acento); }
 
 .acciones-header {
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -98,6 +101,7 @@ a { color: inherit; }
 
 /* ---------- LANGUAGE SWITCHER ---------- */
 .btn-idioma {
+  white-space: nowrap;
   cursor: pointer;
   background: transparent;
   border: 1.5px solid var(--color-acento);
@@ -136,6 +140,7 @@ a { color: inherit; }
 }
 
 .inicio .contenido-banner {
+  width: 100%;
   padding: 30px 25px;
   background-color: var(--color-fondo-alt);
   max-width: 360px;
@@ -152,6 +157,20 @@ a { color: inherit; }
   border: 8px solid var(--color-acento);
   display: block;
   margin: 0 auto 20px;
+}
+
+.profile-initials {
+  width: 180px;
+  height: 180px;
+  display: grid;
+  place-items: center;
+  border: 8px solid var(--color-acento);
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  color: var(--color-acento);
+  background: var(--color-fondo-oscuro);
+  font-size: 60px;
+  font-family: var(--fuente-titulo);
 }
 
 .inicio .contenido-banner h1 {
@@ -216,7 +235,7 @@ footer .redes a {
 }
 
 .fila { display: flex; gap: 30px; }
-.fila .col { width: 50%; }
+.fila .col { width: 50%; min-width: 0; }
 
 .fila .col h3 {
   font-size: 24px;
@@ -378,7 +397,9 @@ footer .redes a {
 /* ---------- PORTFOLIO ---------- */
 .galeria {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  max-width: 720px;
+  margin: auto;
   gap: 20px;
 }
 
@@ -392,27 +413,28 @@ footer .redes a {
   text-decoration: none;
 }
 
-.proyecto img { width: 100%; display: block; }
+.proyecto img { width: 100%; height: auto; display: block; }
 
 .proyecto .overlay {
-  position: absolute;
-  inset: 0;
-  text-align: center;
-  background: rgba(28, 182, 152, .88);
+  position: static;
+  text-align: left;
+  background: var(--color-fondo-oscuro);
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
   transition: opacity .5s;
   font-size: 16px;
-  letter-spacing: 1px;
-  opacity: 0;
+  line-height: 1.6;
+  opacity: 1;
 }
 
 .proyecto:hover .overlay,
 .proyecto:focus-visible .overlay { opacity: 1; }
 
 .proyecto .overlay h3 { margin-bottom: 10px; font-size: 19px; }
+.project-link { display: block; margin-top: 16px; color: var(--color-acento); font-weight: 600; }
+.proyecto:hover .project-link { text-decoration: underline; }
 
 /* ---------- CONTACT ---------- */
 .contacto-intro {
@@ -425,7 +447,7 @@ footer .redes a {
 
 .tarjetas-contacto {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
   gap: 20px;
 }
 
@@ -468,9 +490,11 @@ footer .arriba {
 }
 
 .footer-nota { color: var(--color-texto-suave); font-size: 14px; }
+.footer-tools { max-width: 720px; margin: 14px auto 8px; color: var(--color-texto-suave); font-size: 13px; line-height: 1.6; }
+.notes-link { color: var(--color-acento); font-size: 13px; }
 
 /* ---------- RESPONSIVE ---------- */
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1100px) {
   nav { display: none; }
   nav.responsive { display: block; }
 
@@ -507,7 +531,15 @@ footer .arriba {
   .sobremi h2, .skills h2, .curriculum h2,
   .portfolio h2, .contacto h2 { font-size: 32px; }
 
-  .proyecto .overlay { opacity: 1; background: rgba(28,182,152,.75); }
+  .datos li strong { width: auto; display: block; margin-bottom: 4px; }
+  .datos li .destacado { display: inline-block; }
+}
+
+@media screen and (max-width: 360px) {
+  .contenedor-header header { padding: 15px 12px; }
+  .acciones-header { gap: 6px; }
+  .btn-idioma { padding: 6px 8px; }
+  .nav-responsive { padding: 8px; }
 }
 
 /* ---------- ACCESSIBILITY ---------- */

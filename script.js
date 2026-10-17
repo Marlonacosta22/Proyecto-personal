@@ -7,6 +7,10 @@
    1. SPANISH TEXTS
    ------------------------------------------------------------ */
 const ES = {
+  "meta.description": "Portafolio bilingüe de Marlon Acosta Roa, estudiante de Programación Web en UNIESPINAL.",
+  "menu.open": "Abrir menú",
+  "menu.close": "Cerrar menú",
+  "back.top": "Volver al inicio",
   "nav.home":      "INICIO",
   "nav.about":     "SOBRE MÍ",
   "nav.skills":    "HABILIDADES",
@@ -36,6 +40,8 @@ const ES = {
   "skills.title":        "Habilidades",
   "skills.technical":    "Habilidades técnicas",
   "skills.professional": "Habilidades profesionales",
+  "skill.java":          "Java (Swing y escritorio)",
+  "skill.mobile":        "Desarrollo móvil con bloques",
   "skill.support":       "Soporte técnico y Logística",
   "skill.teamwork":      "Metodologías Ágiles",
   "skill.problem":       "Resolución de problemas lógicos",
@@ -46,22 +52,26 @@ const ES = {
   "resume.experience": "Experiencia",
 
   "edu.1.title": "Técnico Profesional en Programación Web",
+  "edu.1.period": "En curso (4.º semestre)",
   "edu.1.text":  "Formación orientada al desarrollo de software, modelado de bases de datos, teoría general de sistemas y metodologías ágiles.",
   "edu.2.title": "Desarrollo Lógico e Infraestructura",
+  "edu.2.provider": "Formación autodidacta",
+  "edu.2.period": "Aprendizaje continuo",
   "edu.2.text":  "Estudio práctico sobre arquitectura de hardware, simulación de redes en Cisco Packet Tracer y administración de servidores virtualizados.",
 
   "exp.1.title": "Prácticas de Desarrollo Frontend",
   "exp.1.text":  "Construcción y maquetación de interfaces de usuario interactivas y responsivas aplicando HTML, CSS, JavaScript y frameworks como Bootstrap 5.",
   "exp.2.title": "Lógica de Servidor y Bases de Datos",
+  "exp.2.provider": "Proyectos académicos",
   "exp.2.text":  "Ejercicios prácticos de estructuración de bases de datos relacionales (MySQL) y desarrollo de backend utilizando PHP en entornos locales.",
 
   "portfolio.title": "Proyectos",
-  "project.1.title": "[Nombre del proyecto]",
-  "project.1.text":  "[Tecnologías usadas]",
-  "project.2.title": "[Nombre del proyecto]",
-  "project.2.text":  "[Tecnologías usadas]",
-  "project.3.title": "[Nombre del proyecto]",
-  "project.3.text":  "[Tecnologías usadas]",
+  "project.1.title": "Portafolio personal bilingüe",
+  "project.1.text": "Página adaptable con secciones de perfil, habilidades, formación y proyectos. Tecnologías: HTML5, CSS3 y JavaScript. Publicada con GitHub Pages.",
+  "project.1.image": "Vista del portafolio personal bilingüe",
+  "project.1.link": "Ver código en GitHub →",
+  "tools.note": "Herramientas: OpenAI Codex (IA) ayudó a revisar las traducciones, el código y este borrador. Detalles en NOTES.md.",
+  "tools.link": "Notas de traducción y herramientas",
 
   "contact.title":         "Contacto",
   "contact.intro":         "Si te interesan mis proyectos o buscas un perfil orientado al desarrollo de software y la resolución de problemas, no dudes en escribirme.",
@@ -75,6 +85,10 @@ const ES = {
    2. ENGLISH TEXTS
    ------------------------------------------------------------ */
 const EN = {
+  "meta.description": "Bilingual portfolio of Marlon Acosta Roa, a Web Programming student at UNIESPINAL.",
+  "menu.open": "Open menu",
+  "menu.close": "Close menu",
+  "back.top": "Back to top",
   "nav.home":      "HOME",
   "nav.about":     "ABOUT",
   "nav.skills":    "SKILLS",
@@ -85,7 +99,7 @@ const EN = {
   "hero.role": "Software Developer · Web Programming Student",
 
   "about.title":          "About Me",
-  "about.text":           "I am a fourth-semester Web Programming student at UNIESPINAL. I am passionate about full-stack software development, from creating Java desktop apps and SQL databases to mobile and web development using technologies like PHP and Laravel. I am a curious person who enjoys learning about hardware architecture, network simulation, and reading about technological innovation. I love tackling logical problems and building efficient solutions.",
+  "about.text":           "I am a fourth-semester Web Programming student at UNIESPINAL. I build learning projects with Java, SQL, PHP, and Laravel, and I am developing my web and mobile programming skills. I enjoy solving logical problems and building efficient solutions.",
   "about.infoTitle":      "Information",
   "about.labelLocation":  "Location",
   "about.valueLocation":  "El Espinal (Tolima), Colombia",
@@ -104,6 +118,8 @@ const EN = {
   "skills.title":        "Skills",
   "skills.technical":    "Technical skills",
   "skills.professional": "Professional skills",
+  "skill.java":          "Java (Swing and desktop apps)",
+  "skill.mobile":        "Block-based mobile development",
   "skill.support":       "Technical support & Logistics",
   "skill.teamwork":      "Agile Methodologies",
   "skill.problem":       "Logical problem solving",
@@ -114,22 +130,26 @@ const EN = {
   "resume.experience": "Experience",
 
   "edu.1.title": "Professional Technician in Web Programming",
+  "edu.1.period": "In progress (fourth semester)",
   "edu.1.text":  "Training focused on software development, database modeling, general systems theory, and agile methodologies.",
   "edu.2.title": "Logic Development and Infrastructure",
+  "edu.2.provider": "Self-directed study",
+  "edu.2.period": "Ongoing learning",
   "edu.2.text":  "Practical study on hardware architecture, network simulation in Cisco Packet Tracer, and virtualized server administration.",
 
   "exp.1.title": "Frontend Development Practices",
   "exp.1.text":  "Built and structured interactive, responsive user interfaces applying HTML, CSS, JavaScript, and frameworks like Bootstrap 5.",
   "exp.2.title": "Server Logic & Databases",
+  "exp.2.provider": "Academic projects",
   "exp.2.text":  "Completed practical exercises in relational database modeling (MySQL) and backend development using PHP in local environments.",
 
   "portfolio.title": "Projects",
-  "project.1.title": "[Project name]",
-  "project.1.text":  "[Technologies used]",
-  "project.2.title": "[Project name]",
-  "project.2.text":  "[Technologies used]",
-  "project.3.title": "[Project name]",
-  "project.3.text":  "[Technologies used]",
+  "project.1.title": "Bilingual Personal Portfolio",
+  "project.1.text": "A responsive website with profile, skills, education, and project sections. Technologies: HTML5, CSS3, and JavaScript. Published with GitHub Pages.",
+  "project.1.image": "Preview of the bilingual personal portfolio",
+  "project.1.link": "View code on GitHub →",
+  "tools.note": "Tools: OpenAI Codex (AI) helped review the translations, code, and this draft. Details are in NOTES.md.",
+  "tools.link": "Translation notes and tools",
 
   "contact.title":         "Contact",
   "contact.intro":         "If you are interested in my projects or are looking for a profile focused on software development and problem-solving, feel free to contact me.",
@@ -161,6 +181,13 @@ function aplicarIdioma(idioma) {
 
   document.documentElement.lang = idioma;
 
+  for (const atributo of ["alt", "aria-label", "content"]) {
+    document.querySelectorAll("[data-i18n-" + atributo + "]").forEach(elemento => {
+      const clave = elemento.getAttribute("data-i18n-" + atributo);
+      if (textos[clave] !== undefined) elemento.setAttribute(atributo, textos[clave]);
+    });
+  }
+
   const boton = document.getElementById("btn-idioma");
   if (boton) {
     const otro = idioma === "es" ? "en" : "es";
@@ -169,10 +196,11 @@ function aplicarIdioma(idioma) {
       '<span class="idioma-sep">/</span>' +
       '<span class="idioma-inactivo">' + otro.toUpperCase()   + '</span>';
     boton.setAttribute("aria-label",
-      idioma === "es" ? "Switch to English" : "Cambiar a español");
+      idioma === "es" ? "Cambiar a inglés" : "Switch to Spanish");
   }
 
   idiomaActual = idioma;
+  actualizarBotonMenu();
 }
 
 function cambiarIdioma() {
@@ -185,16 +213,32 @@ function cambiarIdioma() {
 
 let menuVisible = false;
 
+function actualizarBotonMenu() {
+  const boton = document.querySelector(".nav-responsive");
+  const clave = menuVisible ? "menu.close" : "menu.open";
+  boton.setAttribute("aria-expanded", String(menuVisible));
+  boton.setAttribute("aria-label", DICCIONARIOS[idiomaActual][clave]);
+}
+
 function mostrarOcultarMenu() {
   const nav = document.getElementById("nav");
   menuVisible = !menuVisible;
   nav.className = menuVisible ? "responsive" : "";
+  actualizarBotonMenu();
 }
 
 function cerrarMenu() {
   document.getElementById("nav").className = "";
   menuVisible = false;
+  actualizarBotonMenu();
 }
+
+document.addEventListener("keydown", evento => {
+  if (evento.key === "Escape" && menuVisible) {
+    cerrarMenu();
+    document.querySelector(".nav-responsive").focus();
+  }
+});
 
 /* ============================================================
    5. SKILL BARS
