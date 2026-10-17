@@ -26,7 +26,7 @@ This sentence required a natural English verb choice. A word-by-word version usi
 
 ## Tools
 
-OpenAI Codex, an AI assistant, helped audit the website, draft and revise the English text, prepare these answers, and correct HTML, CSS, and JavaScript. Browser tools were used to inspect the published page and its language switch. Automated checks validated the revised dictionaries and navigation logic. Visual desktop and mobile checks of the revised page are pending publication. The project image is a browser capture of this portfolio, not an AI-generated image. No separate translation service was used in this revision. The student should review the wording and confirm that the profile accurately represents their skills and studies.
+OpenAI Codex, an AI assistant, helped audit the website, draft and revise the English text, prepare these answers, and correct HTML, CSS, and JavaScript. Browser tools were used to inspect the published page and its language switch. Automated checks validated the revised dictionaries and navigation logic. The published page was checked in the available browser viewport, including language switching, project image loading, and responsive-menu navigation. The project image is a browser capture of this portfolio, not an AI-generated image. No separate translation service was used in this revision. The student should review the wording and confirm that the profile accurately represents their skills and studies.
 
 ## Review record
 
